@@ -1,0 +1,58 @@
+{
+  "id": "4081800",
+  "name": "t",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "6195944",
+      "name": "图片添加",
+      "font_class": "tupiantianjia",
+      "unicode": "ec7d",
+      "unicode_decimal": 60541
+    },
+    {
+      "icon_id": "35471732",
+      "name": "精选",
+      "font_class": "jingxuan",
+      "unicode": "e614",
+      "unicode_decimal": 58900
+    },
+    {
+      "icon_id": "35471733",
+      "name": "唱歌",
+      "font_class": "changge",
+      "unicode": "e615",
+      "unicode_decimal": 58901
+    },
+    {
+      "icon_id": "35471734",
+      "name": "会员",
+      "font_class": "huiyuan",
+      "unicode": "e616",
+      "unicode_decimal": 58902
+    },
+    {
+      "icon_id": "35522377",
+      "name": "厨余垃圾运输车",
+      "font_class": "chuyulajiyunshuche",
+      "unicode": "e65b",
+      "unicode_decimal": 58971
+    },
+    {
+      "icon_id": "35522378",
+      "name": "厨余垃圾转运车-1",
+      "font_class": "chuyulajizhuanyunche-1",
+      "unicode": "e65c",
+      "unicode_decimal": 58972
+    },
+    {
+      "icon_id": "35522379",
+      "name": "其他垃圾转运车",
+      "font_class": "qitalajizhuanyunche",
+      "unicode": "e65d",
+      "unicode_decimal": 58973
+    }
+  ]
+}

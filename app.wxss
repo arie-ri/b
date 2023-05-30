@@ -1,0 +1,97 @@
+.container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 200rpx 0;
+  box-sizing: border-box;
+}
+.bottom{
+  position: fixed;
+  width: 100%;
+  background-color: #fff;
+  bottom: 0px;
+  z-index: 1;
+}
+.flex {
+  display: flex;
+  justify-content: center;
+}
+.flex-warp {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.flex-between {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 10px;
+  margin-right: 10px;
+  padding: 5px 16px;
+}
+.text-align {
+  text-align: center;
+  vertical-align: middle;
+  width: 100%;
+}
+.fr {
+  float: right;
+}
+.border {
+  border: gray 0.1px solid;
+  margin: 10px;
+  border-radius: 5px;
+}
+
+.margin {
+  margin: auto;
+}
+
+.van-button {
+  width: 100% !important;
+}
+
+@font-face {
+  font-family: "iconfont";
+  /* Project id 4081800 */
+  src: url('./icon/font_4081800_ddiyz8hs1s/iconfont.woff2?t=1685248138732') format('woff2'),
+    url('./icon/font_4081800_ddiyz8hs1s/iconfont.woff?t=1685248138732') format('woff'),
+    url('./icon/font_4081800_ddiyz8hs1s/iconfont.ttf?t=1685248138732') format('truetype');
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-tupiantianjia:before {
+  content: "\ec7d";
+}
+
+.icon-jingxuan:before {
+  content: "\e614";
+}
+
+.icon-changge:before {
+  content: "\e615";
+}
+
+.icon-huiyuan:before {
+  content: "\e616";
+}
+
+.icon-chuyulajiyunshuche:before {
+  content: "\e65b";
+}
+
+.icon-chuyulajizhuanyunche-1:before {
+  content: "\e65c";
+}
+
+.icon-qitalajizhuanyunche:before {
+  content: "\e65d";
+}

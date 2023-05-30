@@ -1,0 +1,14 @@
+<van-tabs bind:change="onChange" type="card" bind:change="tabChange">
+  <van-tab title="二维码">
+  <view style="margin: 15px;">
+    <van-uploader file-list="{{ fileList }}" bind:after-read="afterRead" max-count="1"/>
+  </view>
+  </van-tab>
+  <van-tab title="链接">
+     <textarea value=""/>
+  </van-tab>
+  <van-tab title="纯文本"></van-tab>
+</van-tabs>
+
+<textarea value="" class="textarea" model:value="{{tip}}"/>
+<van-button round type="info" bind:click="taskStepConfirm">确定</van-button>

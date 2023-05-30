@@ -1,0 +1,23 @@
+<view class="border">
+  <text style="font-weight: 700;">填写要买的商品</text>
+  <textarea value="" style="height: 100px;" />
+  <text class="iconfont icon-tupiantianjia" bindtap="addimg" style="font-size: 20px;color: gray;">上传商品图</text>
+</view>
+<view class="border flex">
+    <van-field value="{{ taskstepinfo }}" label="收货地址" placeholder="未填写" bindtap="sexselect" required />
+    <van-icon name="arrow" />
+</view>
+
+<view class="border flex">
+    <van-field value="{{ taskstepinfo }}" label="期望送达" placeholder="未填写"  required/>
+    <van-icon name="arrow" />
+</view>
+<van-cell title="需送上楼?" style="font-weight: 700;">
+  <van-switch checked="{{ checked }}" bind:change="onChange" />
+</van-cell>
+
+<view class="flex bottom">
+  <van-button round type="info" style="width: 200px;">
+    立即发布
+  </van-button>
+</view>

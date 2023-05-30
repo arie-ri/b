@@ -1,0 +1,10 @@
+<van-cell title="单元格">
+
+<text bindtap="chooseFile">文件选择</text>
+</van-cell>
+<van-cell title="需送上楼?" style="font-weight: 700;">
+  <van-switch checked="{{ checked }}" bind:change="onChange" />
+</van-cell>
+<van-cell title="需送上楼?" style="font-weight: 700;">
+  <van-switch checked="{{ checked }}" bind:change="onChange" />
+</van-cell>

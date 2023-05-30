@@ -1,0 +1,18 @@
+找帮手：
+<view class="flex-warp">
+  <view class="options" wx:for="{{helplist}}" wx:key="{{index}}">
+  <navigator url="{{item.url}}" style="height: 100%;text-align: center;">
+      <image src="{{item.img}}" mode="heightFix" class="option-img"/>
+      <view class="text-align">{{item.title}}</view>
+  </navigator>
+  </view>
+</view>
+购物：
+<view class="flex-warp">
+  <view class="options" wx:for="{{shoplist}}" wx:key="{{index}}">
+  <navigator url="{{item.url}}" style="height: 100%;text-align: center;">
+      <image src="{{item.img}}" mode="heightFix" class="option-img"/>
+      <view class="text-align">{{item.title}}</view>
+  </navigator>
+  </view>
+</view>

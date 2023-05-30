@@ -1,0 +1,15 @@
+/* pages/taskstep/taskstep.wxss */
+.van-field__body{
+  background-color: #f7f8fa;
+  height: 100px;
+}
+textarea{
+  background-color: #f7f8fa;
+  margin: 10px;
+  height: 100px;
+}
+.textarea{
+  background-color: #f7f8fa;
+  margin: 10px;
+  height: 200px;
+}

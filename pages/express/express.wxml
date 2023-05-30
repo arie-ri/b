@@ -1,0 +1,55 @@
+<view class="flex-between">
+  <text>大件：</text>
+  <van-stepper model:value="{{ smallcount }}" min="0" bind:change="onChange" />
+</view>
+<view class="flex-between">
+  <text>中件：</text>
+  <van-stepper model:value="{{ middlecount }}" min="0" bind:change="onChange" />
+</view>
+<view class="flex-between">
+  <text>小件：</text>
+  <van-stepper model:value="{{ bigcount }}" min="0" bind:change="onChange" />
+</view>
+<view class="flex">
+  <van-field value="{{ taskstepinfo }}" label="收件地址" placeholder="未填写" required readonly bindtap="goAddress" />
+  <van-icon name="arrow" />
+</view>
+<view class="flex">
+  <van-field value="{{ taskstepinfo }}" label="取件地址" placeholder="未填写" required />
+  <van-icon name="arrow" style="opacity: 0;" />
+</view>
+<view class="border">
+  <van-field value="{{ message }}" label="取件码" type="textarea" placeholder="输入取件码或上传截图" autosize />
+  <view>
+    <van-uploader file-list="{{ fileList }}" bind:after-read="afterRead" />
+  </view>
+</view>
+<view class="flex">
+  <van-field value="{{ taskstepinfo }}" label="期望送到" placeholder="未填写" required readonly bindtap="arrivetime" />
+  <van-icon name="arrow" />
+</view>
+<view class="flex">
+  <van-field value="{{ taskstepinfo }}" label="性别限制" placeholder="未填写" required readonly bindtap="sexselect" />
+  <van-icon name="arrow" />
+</view>
+<view class="flex">
+  <van-field value="{{ taskstepinfo }}" label="备注" placeholder="未填写"/>
+  <van-icon name="arrow" style="opacity: 0;" />
+</view>
+<view style="height: 44px;">
+  
+</view>
+<van-popup show="{{ arriveshow }}" round position="bottom" custom-style="height: 40%" bind:close="onClose">
+  <van-datetime-picker type="time" value="{{ currentDate }}" min-hour="{{ minHour }}" max-hour="{{ maxHour }}" bind:input="onInput" />
+</van-popup>
+
+<van-popup show="{{ sexshow }}" round position="bottom" custom-style="height: 40%" bind:close="onClose">
+  <van-picker title="标题" columns="{{ sexcolumns }}" bind:cancel="onCancel" bind:confirm="onConfirm" show-toolbar title="" />
+</van-popup>
+
+
+<view class="flex bottom">
+  <van-button round type="info" style="width: 200px;">
+    立即发布
+  </van-button>
+</view>

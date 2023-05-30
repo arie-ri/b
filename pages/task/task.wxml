@@ -1,0 +1,14 @@
+<van-tabs active="a">
+  <van-tab title="全部" name="a">内容 1
+  
+  
+  </van-tab>
+  <van-tab title="取快递" name="b">内容 2</van-tab>
+  <van-tab title="代打印" name="c">内容 3</van-tab>
+  <van-tab title="买东西" name="c">内容 3</van-tab>
+  <van-tab title="送东西" name="c">内容 3</van-tab>
+  <van-tab title="助个力" name="c">内容 3</van-tab>
+  <van-tab title="投个票" name="c">内容 3</van-tab>
+  <van-tab title="其它" name="c">内容 3</van-tab>
+  
+</van-tabs>

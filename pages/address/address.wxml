@@ -1,0 +1,28 @@
+<van-field
+    value="{{ consignee  }}"
+    required
+    clearable
+    label="收货人"
+    placeholder="收货人昵称"
+  />
+  <van-field
+    value="{{ telnumber }}"
+    required
+    clearable
+    label="手机尾号"
+    placeholder="收件手机号码后四位"
+  />
+  <van-field
+    value="{{ buildnumber  }}"
+    required
+    clearable
+    label="楼栋号"
+    placeholder="楼栋号码"
+  />
+  <van-field
+    value="{{ roomnumber }}"
+    clearable
+    label="门牌号"
+    placeholder="宿舍门牌号(选填)"
+  />
+  <van-button type="primary" round  block>保存</van-button>
